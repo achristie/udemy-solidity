@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node --require=./.pnp.js compile.js"
+  },
+  "dependencies": {
+    "ganache": "^7.0.1",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.2.0",
+    "react": "^17.0.2",
+    "solc": "0.4.17",
+    "web3": "^1.7.0"
+  }
+}
