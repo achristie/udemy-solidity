@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node --require=./.pnp.js compile.js"
+    "start": "node --require=./.pnp.js compile.js",
+    "test": "mocha"
   },
   "dependencies": {
     "ganache": "^7.0.1",
